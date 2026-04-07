@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+ai_env_new/
+.venv/
+venv/
+env/
+
+# Build and tooling
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets and env
+.env
+*.env
+
+# Generated interview artifacts
+*.wav
+*.avi
+interview_report.json
+
+# Frontend
+node_modules/
+dist/
