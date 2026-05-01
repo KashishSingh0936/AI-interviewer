@@ -23,7 +23,7 @@ import threading
 import time
 
 # ✅ DEFINE CLIENT (Use environment variable for API key)
-client = Groq(api_key=os.getenv("GROQ_API_KEY", "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"))
+client = Groq(api_key=os.getenv("GROQ_API_KEY", "Hard-Code your api key here"))
 
 # 🗂️ DOMAIN-ROLE MAPPING
 domain_roles = {
